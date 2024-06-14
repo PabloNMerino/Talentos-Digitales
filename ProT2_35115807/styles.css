@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+.title {
+    font-family: "Tiny5", sans-serif;
+    font-size: 25px
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/main-backgorund.jpg);
+    background-size: cover;
+}
+
+.carousel {
+    width: 95%;
+    padding-top: 20px;
+    margin: 0 auto 20px auto;
+}
