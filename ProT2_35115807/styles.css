@@ -136,6 +136,18 @@ footer h3 {
     font-weight: 700;
 }
 
-.porque-elegirnos {
+.donde-encontrarnos {
     padding-bottom: 80px;
+}
+
+.map {
+    width: 1000px;
+    height: 400px;
+}
+
+@media (max-width: 1046px) {
+    .map{
+        margin: 0 20px;
+    }
+    
 }
