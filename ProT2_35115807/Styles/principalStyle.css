@@ -1,0 +1,32 @@
+/* --------------- AQUI SE ENCUENTRA ESTILO PROPIO DE principal.html --------------- */
+
+.carousel {
+    width: 95%;
+    padding-top: 20px;
+    margin: 0 auto 20px auto;
+    max-width: 2000px;
+}
+
+.cards {
+    width: 90%;
+    padding-top: 50px;
+    margin: 0 auto 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: fit-content;
+}
+
+@media (max-width: 991px) {
+
+    .cards{
+        gap: 20px;
+    }
+    
+}

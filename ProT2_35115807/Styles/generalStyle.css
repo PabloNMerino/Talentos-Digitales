@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+/* --------------- AQUI SE ENCUENTRA EL ESTILO DEL HEADER Y FOOTER, TAMBIEN LA ESTRUCTURA GENERAL DEL BODY MEDIANTE GRID --------------- */
+/* --------------- ESTE ESTILO SE COMPARTE EN TODAS LAS PAGINAS HTML --------------- */
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.brand-font {
+    font-family: "Tiny5", sans-serif;
+    font-size: 25px
+}
+
+
+.nosotros {
+    margin-right: 8px;
+}
+
+.form div {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ color: white;
+ margin-bottom: 10px;
+}
+
+.form input {
+    padding-left: 10px;
+}
+
+main{
+    width: 100%;
+    background-image: url(../images/main-backgorund.jpg);
+    background-size: cover;
+}
+
+footer {
+    background-color: #303434;
+    color: white;
+    padding-top: 10px;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+@media (max-width: 991px) {
+    .nosotros {
+        margin-bottom: 10px;
+    }
+ 
+    .login-btn {
+        margin-bottom: 5px;
+    }
+}
+
